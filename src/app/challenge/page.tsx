@@ -15,7 +15,6 @@ const ChallengePage = () => {
   const [solution, setSolution] = useState<SudokuGrid>([]);
   const [timer, setTimer] = useState<number>(0);
   const [isSolved, setIsSolved] = useState<boolean>(false);
-  const [usedHints, setUsedHints] = useState<number>(0);
   const [hintMessage, setHintMessage] = useState<string>("");
   const [statusMessage, setStatusMessage] = useState<string>("");
 
@@ -40,7 +39,6 @@ const ChallengePage = () => {
     setSolution(newSudoku.solution);
     setTimer(0);
     setIsSolved(false);
-    setUsedHints(0);
     setHintMessage("");
     setStatusMessage("");
   };
@@ -52,7 +50,6 @@ const ChallengePage = () => {
       const newPuzzle = puzzle.map((row) => row.slice());
       newPuzzle[hint.row][hint.col] = hint.value;
       setPuzzle(newPuzzle);
-      setUsedHints((prev) => prev + 1);
       checkIfSolved(newPuzzle);
     }
   };
