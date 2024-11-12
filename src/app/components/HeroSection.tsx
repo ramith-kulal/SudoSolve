@@ -14,12 +14,25 @@ const SudokuSolver = () => {
         <Button title="Sudoku Challenge" link="/challenge" />
         <Button title="Sudoku Solver" link="/solver" />
       </div>
-      <p className="text-gray-300">
+      <p className="text-gray-300 mb-8">
         Solve and challenge Sudoku puzzles with an interactive 9x9 grid.{" "}
         <strong className="text-orange-500">Validate</strong>,{" "}
         <strong className="text-orange-500">solve</strong>, and{" "}
         <strong className="text-orange-500">improve</strong> your skills!
       </p>
+      <footer className="mt-auto text-center">
+        <p className="text-sm text-gray-400">
+          Created by{" "}
+          <a
+            href="https://github.com/ramith-kulal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            Ramith Kulal
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
