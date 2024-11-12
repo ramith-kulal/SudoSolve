@@ -61,9 +61,14 @@ npm run dev
 Open the app in your browser at http://localhost:3000.
 ## Acknowledgements
 
-- Parts of the UI, including buttons and animations, were inspired by design snippets found on CodePen. Credits go to the original authors for their creative designs.
-
+- Parts of the UI, including buttons and animations, we
+re inspired by design snippets found on CodePen. Credits go to the original authors for their creative designs.
+### Screenshots:
+![Screenshot 2024-11-12 151535](https://github.com/user-attachments/assets/45faddce-a59b-49f9-bbf5-6872a9f00cd9)
+![Screenshot 2024-11-12 151553](https://github.com/user-attachments/assets/e29cf565-4e9b-4548-b22a-1af4735a065b)
+![Screenshot 2024-11-12 151608](https://github.com/user-attachments/assets/c5e44412-2ef9-4750-b900-1369ecd3638b)
 ### Additional Notes:
+
 
 Note: Some of the UI elements, such as buttons and animations, were adapted and modified from CodePen examples. Credit goes to the respective creators for their inspiring designs.
 
