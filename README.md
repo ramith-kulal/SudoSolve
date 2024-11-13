@@ -62,7 +62,7 @@ Open the app in your browser at http://localhost:3000.
 ## Acknowledgement
 
 - Parts of the UI, buttons and text animation, are inspired by design snippets found on CodePen. Credits go to the original authors for their creative designs.
-### Screenshots:
+## Screenshots:
 ![Screenshot 2024-11-12 151535](https://github.com/user-attachments/assets/45faddce-a59b-49f9-bbf5-6872a9f00cd9)
 ![Screenshot 2024-11-12 151553](https://github.com/user-attachments/assets/e29cf565-4e9b-4548-b22a-1af4735a065b)
 ![Screenshot 2024-11-12 151608](https://github.com/user-attachments/assets/c5e44412-2ef9-4750-b900-1369ecd3638b)
